@@ -34,10 +34,12 @@ console.log('days :',days);
 console.log(`the blog was written ${days} ago`);
 
 const timeStamp = 999800044990;
+    
+const subin = new Date('7 october 2003 5:50:59')
 
 const myDate = new Date(timeStamp)
 
-const diffDay = now -myDate
+const diffDay = now -subin
 const myMinutes = Math.round(diffDay / 1000 / 60)
 const myHours = Math.round(myMinutes / 60)
 const MyDays = Math.round(myHours / 24)
